@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <!-- Top image -->
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/berlengas" />
+
+        <!-- Company name -->
+
+        <TextView
+            style="@style/TitleTextView"
+            android:text="@string/app_name" />
+
+        <!-- Company adress -->
+
+        <LinearLayout
+            style="@style/DetailLinearLayout" >
+
+            <ImageView
+                style="@style/DetailImageView"
+                android:src="@drawable/address" />
+
+            <TextView
+                style="@style/DetailTextView"
+                android:text="@string/address" />
+
+        </LinearLayout>
+
+        <!-- Company schedule -->
+
+        <LinearLayout
+            style="@style/DetailLinearLayout" >
+
+            <ImageView
+                style="@style/DetailImageView"
+                android:src="@drawable/clock" />
+
+            <TextView
+                style="@style/DetailTextView"
+                android:text="@string/schedule" />
+
+        </LinearLayout>
+
+        <!-- Company phone number -->
+
+        <LinearLayout
+            style="@style/DetailLinearLayout" >
+
+            <ImageView
+                style="@style/DetailImageView"
+                android:src="@drawable/phone" />
+
+            <TextView
+                style="@style/DetailTextView"
+                android:text="@string/phone_number" />
+
+        </LinearLayout>
+
+        <!-- Company email -->
+
+        <LinearLayout
+            style="@style/DetailLinearLayout" >
+
+            <ImageView
+                style="@style/DetailImageView"
+                android:src="@drawable/email" />
+
+            <TextView
+                style="@style/DetailTextView"
+                android:text="@string/email" />
+
+        </LinearLayout>
+
+        <!-- Company website -->
+
+        <LinearLayout
+            style="@style/DetailLinearLayout" >
+
+
+            <ImageView
+                style="@style/DetailImageView"
+                android:src="@drawable/website" />
+
+            <TextView
+                style="@style/DetailTextView"
+                android:text="@string/website" />
+
+        </LinearLayout>
+
+        <!-- Company description -->
+
+        <TextView
+            style="@style/TitleTextView"
+            android:text="@string/about_us" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/company_description"
+            android:textAppearance="?android:textAppearanceSmall"
+            android:textColor="#000000"
+            android:layout_marginLeft="32dp"
+            android:layout_marginRight="32dp"
+            android:layout_marginBottom="32dp"/>
+
+    </LinearLayout>
+
+</ScrollView>

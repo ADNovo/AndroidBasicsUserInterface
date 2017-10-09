@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Diving Berlengas</string>
+    <string name="address">Nº 123, Rua Tenente Valadim, Peniche</string>
+    <string name="schedule">10:00 - 19:00</string>
+    <string name="phone_number">+351 253 123 798</string>
+    <string name="email">info@divingberlengas.com</string>
+    <string name="website">www.divingberlengas.com</string>
+    <string name="about_us">About us</string>
+    <string name="company_description">The Berlenga Nature Reserve is a unique place due to the
+        transparency of its waters and underwater heritage. It is a marine reserve, classified as
+        a Biosphere Reserve by the Council of Europe and since 2011 a World Biosphere Reserve by
+        the United Nations Educational, Scientific and Cultural Organization (UNESCO). Come and
+        dive with us!
+    </string>
+</resources>
