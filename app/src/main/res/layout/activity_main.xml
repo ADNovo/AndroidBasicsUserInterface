@@ -89,7 +89,6 @@
         <LinearLayout
             style="@style/DetailLinearLayout" >
 
-
             <ImageView
                 style="@style/DetailImageView"
                 android:src="@drawable/website" />
